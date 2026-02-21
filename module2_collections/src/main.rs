@@ -18,7 +18,8 @@ fn main() {
         println!("index out of bounds");
     }
 }
-/**
+
+/*
  * Vectors vs Hashmaps vs Strings
  *  Vectors are ordered collections of values, where each value is identified by its index.
  * Hashmaps are unordered collections of key-value pairs, where each value is identified by its key.
