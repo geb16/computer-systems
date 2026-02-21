@@ -36,6 +36,7 @@ fn build_record(magic: u32, temp_tenths_c: i16, voltage: f32, name: &str) -> Vec
 }
 
 #[derive(Debug)]
+#[allow(dead_code)] // This attribute tells the Rust compiler to not warn about unused code in this struct, since we only use it for parsing and printing, but not for any logic.
 struct Record {
     magic: u32,
     temp_tenths_c: i16,
