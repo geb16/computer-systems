@@ -1,0 +1,16 @@
+[workspace]
+resolver = "3"
+members = [
+    "enums_lab",
+    "module2_*",
+    "module3_processors/*",
+    "module4_memory_storage/*",
+    "programming/*",
+    "rust_zero",
+    "topic5_cpu_cache_simul",
+    "topic5_cpu_cache_simul/rust_memory_lab",
+    "topic5_cpu_cache_simul/segsim",
+    "topic5_cpu_cache_simul/vm_demand"
+    
+]
+exclude = ["**/target/**"]
