@@ -1,0 +1,6 @@
+[package]
+name = "topic5_cpu_cache_simul"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
