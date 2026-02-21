@@ -33,6 +33,7 @@ fn build_record(magic: u32, temp_tenths_c: i16, voltage: f32, name: &str) -> Vec
 }
 
 #[derive(Debug)]
+#[allow(dead_code)]
 struct Record {
     magic: u32,
     temp_tenths_c: i16,
