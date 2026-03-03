@@ -23,8 +23,8 @@ fn main() {
     let r: &String;
     {
         let mut s = String::from("hello");
-        r = &mut s;                 // r points to s (reference escapes the scope)
-        //println!("{r}");      // r would be fine here
+        r = &mut s;          // r points to s (reference escapes the scope)
+        //println!("{r}");   // r would be fine here
     }                           // s goes out of scope here
     println!("{r}");         // ❌ r is dangling
 }
