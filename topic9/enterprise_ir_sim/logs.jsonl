@@ -1,0 +1,11 @@
+{"ts":"2026-03-03T18:00:01Z","event":"auth_fail","user":"dj","ip":"203.0.113.10","service":"vpn"}
+{"ts":"2026-03-03T18:00:05Z","event":"auth_fail","user":"dj","ip":"203.0.113.10","service":"vpn"}
+{"ts":"2026-03-03T18:00:09Z","event":"auth_fail","user":"dj","ip":"203.0.113.10","service":"vpn"}
+{"ts":"2026-03-03T18:00:14Z","event":"auth_fail","user":"dj","ip":"203.0.113.10","service":"vpn"}
+{"ts":"2026-03-03T18:00:20Z","event":"auth_fail","user":"dj","ip":"203.0.113.10","service":"vpn"}
+{"ts":"2026-03-03T18:00:27Z","event":"auth_ok","user":"dj","ip":"203.0.113.10","service":"vpn"}
+
+{"ts":"2026-03-03T18:02:10Z","event":"privilege_change","user":"dj","ip":"203.0.113.10","service":"iam","detail":"added_admin_role"}
+{"ts":"2026-03-03T18:03:00Z","event":"persistence","user":"dj","ip":"203.0.113.10","service":"host","detail":"created_scheduled_task: nightly_sync"}
+{"ts":"2026-03-03T18:05:30Z","event":"data_access","user":"dj","ip":"203.0.113.10","service":"db","detail":"exported_table: customers"}
+{"ts":"2026-03-03T18:06:40Z","event":"exfil","user":"dj","ip":"203.0.113.10","service":"egress","detail":"uploaded_850MB_to_external"}

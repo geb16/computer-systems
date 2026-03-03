@@ -1,0 +1,20 @@
+[package]
+name = "crypto_lab"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# SHA-256
+sha2 = "0.10"
+hex = "0.4"
+
+# AES-GCM (AEAD)
+aes-gcm = "0.10"
+rand = "0.8"
+
+# Simple CLI argument parsing (clean and robust)
+clap = { version = "4.5", features = ["derive"] }
+
+# TLS handshake + inspection (no packet hacks)
+rustls = "0.23"
+webpki-roots = "0.26"
